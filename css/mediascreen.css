@@ -1,0 +1,53 @@
+/*hero section*/
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero, #hero .carousel-item {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero, #hero .carousel-item {
+    height: calc(100vh - 70px);
+  }
+
+  #hero .carousel-content.container {
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #hero p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 560px){
+
+.carousel-container{
+  padding-top: 80px;
+}
+
+.l-title{
+  display: none;
+}
+
+.para1{
+  display: none;
+}
+
+.link button{
+  font-size: 16px;
+  width: 150px;
+}
+}
+
+/*about section*/
+@media (max-width: 560px){
+  
+}

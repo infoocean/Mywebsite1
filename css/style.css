@@ -1,0 +1,184 @@
+/*univers style*/
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+   background-color:white;
+}
+
+/*navbar style*/
+.menubar{
+    box-shadow: 0 8px 6px -8px lightblue;
+}
+
+.logoname{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.logoname:hover{
+    color: #ff9900;
+}
+
+.menubar .navbar ul li a{
+       font-size: 18px;
+       font-family: 'Roboto', sans-serif;
+}
+
+.listname:hover{
+    color:#ff9900 ;
+}
+
+.home{
+    color:#ff9900;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  height: calc(98vh - 50px);
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+#hero .carousel-item {
+  width: 100%;
+  height: calc(98vh - 50px);
+  background-size: cover;
+  background-position: top right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#hero .carousel-item::before {
+  content: '';
+  background-color: rgba(13, 30, 45, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+#hero .carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+#hero .carousel-content {
+  text-align: left;
+}
+
+#hero h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+
+#hero p {
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  color: #fff;
+}
+
+#hero .carousel-inner .carousel-item {
+  transition-property: opacity;
+  background-position: center top;
+}
+
+.btns{
+   width: 220px;
+   font-size: 18px;
+   border-radius: 20px;
+}
+
+/*about section*/
+.aboutparagraph{
+  font-size: 19px;
+  font-family:sans-serif;
+  text-align: justify;
+  padding-top: 5px;
+}
+
+.image{
+  width: 100%;
+  height: 66vh;
+}
+.image img{
+  width: 100%;
+  height: 66vh;
+}
+
+/*contact section*/
+label{
+  color: white;
+  font-size: 17px;
+  padding-top: 5px;
+}
+
+input[type=text] textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+  input[type=submit]{
+  width:170px;
+   min-height:40px;
+   background-color:#ff1a8c;
+   color: white;
+   font-size: 17px;
+   border: 2px solid whitesmoke;
+}
+
+input[type=submit]:hover {
+  background-color: tomato;
+  border: 2px solid lightblue;
+}
+
+
+/*social network styles*/
+.page-social-networks {
+  background-color:#b30047;
+}
+   
+.page-social-networks .s-icon{
+   color: white;
+}
+
+.page-social-networks a{
+  text-decoration: none;
+  font-weight: bold;
+} 
+
+/*footer section area*/ 
+.footerbgcolor{
+    background-color:#282828;
+    color: white;
+}
+
